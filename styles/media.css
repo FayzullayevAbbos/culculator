@@ -27,13 +27,14 @@
     font-size: 2rem;
   }
 }
-@media only screen and (max-width:430px) {
-  .grit div{
+@media only screen and (max-width: 430px) {
+  .grit div {
     width: 80px;
   }
-}
-@media only screen and (max-width:340px) {
- .grit div{
-  width: 60px;
- }
+} 
+@media only screen and (max-width: 340px) {
+  .grit div {
+    width: 60px;
+  }
+  
 }
