@@ -1,0 +1,154 @@
+body {
+  background: #17062a;
+  font-size: 4rem;
+  color: #ffe53d !important;
+}
+/* header qismi uchun css */
+header {
+  margin-bottom: 3.2rem;
+}
+.mar-30 {
+  margin-top: rem;
+}
+.mar-24 {
+  margin-bottom: 24px;
+}
+.pod {
+  width: 71px;
+  height: 26px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: #1e0936;
+  border-radius: 1.3rem;
+  padding: 0 0.5rem;
+}
+.podNum {
+  width: 71px;
+  font-size: 1.2rem;
+  padding: 5px 7px;
+}
+.podNum p {
+  cursor: pointer;
+  padding: 5px;
+}
+.theme {
+  font-size: 1.2rem;
+}
+.active {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #00ded0;
+}
+#activ3 {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+#activ1 {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+#activ2 {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+.pod div {
+  cursor: pointer;
+}
+
+/* input qisimi*/
+.culDis {
+  max-width: 540px;
+  height: 128px;
+  flex-shrink: 0;
+  font-size: 56px;
+  border-radius: 10px;
+  background: #1e0936;
+  padding: 0 3.2rem;
+  overflow: hidden;
+}
+.culDis input {
+  width: 476px;
+  background: inherit;
+  text-align: end;
+  border: none;
+  outline: none;
+}
+main {
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #1e0936;
+  padding: 3.1rem;
+  color: #ffe53d !important;
+}
+.grit {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(20px, 300px));
+  gap: 1rem;
+}
+.grit div {
+  border-radius: 10px;
+  background: #331c4d;
+  box-shadow: 0px -4px 0px 0px #881c9e inset;
+
+  width: 101px;
+  height: 64px;
+  flex-shrink: 0;
+  color: #ffe53d !important;
+  font-family: League Spartan;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.667px;
+  text-align: center;
+  padding: 1.7rem 0;
+  user-select: none;
+  cursor: pointer;
+}
+.grit div:active {
+  border-radius: 10px;
+  background: #6c34ac;
+  box-shadow: 0px -4px 0px 0px #881c9e inset;
+}
+.dell,
+.re {
+  color: #fff !important;
+  border-radius: 10px;
+  background: #56077c !important;
+  box-shadow: 0px -4px 0px 0px #be15f4 inset !important;
+}
+.dell:active,
+.re:active {
+  border-radius: 10px;
+  background: #8631af !important;
+  box-shadow: 0px -4px 0px 0px #be15f4 inset !important;
+}
+.grit2 .teng {
+  width: 227px;
+  height: 64px;
+  color: #1a2327;
+  border-radius: 10px;
+  background: #00ded0 !important;
+  box-shadow: 0px -4px 0px 0px #6cf9f1 inset !important;
+}
+.teng:active {
+  border-radius: 10px;
+  background: #93fff8 !important;
+  box-shadow: 0px -4px 0px 0px #6cf9f1 inset !important;
+}
+.grit2 div {
+  width: 227px;
+  height: 64px;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 1.7rem 0;
+  cursor: pointer;
+}

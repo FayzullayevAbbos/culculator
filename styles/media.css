@@ -1,0 +1,25 @@
+@media only screen and (max-width: 320px) {
+  .culDis input {
+    font-size: 4rem !important;
+    max-width: 327px;
+    height: 88px;
+  }
+  .grit div {
+    width: 60px;
+    height: 64px;
+    flex-shrink: 0;
+    font-size: 3.2rem;
+  }
+  .culDis {
+    padding: 0 1rem;
+  }
+  main {
+    padding: 1rem;
+  }
+  .grit2 div, .teng  {
+    width: 133px !important;
+    height: 64px;
+    flex-shrink: 0;
+    font-size: 2rem;
+  }
+}
