@@ -92,7 +92,7 @@ main {
 }
 .grit {
   display: grid;
-  grid-template-columns: repeat(4, minmax(20px, 300px));
+  grid-template-columns: repeat(4, minmax(20px, auto));
   gap: 1rem;
 }
 .grit div {
